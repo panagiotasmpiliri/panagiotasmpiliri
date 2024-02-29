@@ -1,10 +1,9 @@
 import requests  # εισαγωγή της βιβλιοθήκης
     
-print("hello world")
 def more(text):
     count = 0
-    for line in text.split('\n'):
-        print(line)
+    for l in text.split('\n'):
+        print(l)
         count += 1
         if count % 30 == 0:
             reply = input('Show more (y/n)? ')
